@@ -1,0 +1,68 @@
+# .NET build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET publish output
+[Dd]ebug/
+[Rr]elease/
+
+# NuGet packages
+*.nupkg
+# NuGet restore
+**/packages/*
+# NuGet build output
+*.snupkg
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Others
+*.vspscc
+*.vssscc
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+
+# Entity Framework
+Migrations/
+
+# Test results
+TestResults/
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish profiles
+Properties/PublishProfiles/
+
+# Temporary files
+~$*
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# IIS Express
+. vs /config/
+
+# Local secrets
+secrets.json
